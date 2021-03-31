@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Portfolio's Nguyen Le Tan Dat</title>
+</head>
+
+<body>
+    <section>
+        <!--navigation------------->
+            <nav>
+                <!--logo-->
+                <a href="#" class="logo">Nguyen Le Tan Dat</a>
+                <!--menu-->
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+                <!--bars------------------------------------>
+                <div class="toggle"></div>
+            </nav>
+            <!--text---------------->
+            <div class="text-container">
+                <p>Hello,</p>
+                <p>I'M DAT</p>
+                <p>I am Sale Engineer <br>& Machine Engineer</p>
+                <button class="hire-btn">Hire Me</button>
+                <button class="down-cv">Download CV</button>
+            </div>
+            <!--model--------------->
+                <img src="model.png" alt="model" class="model">
+    </section>    
+    <!--abou-setion---------------------------------------------->
+    <div class="about-container">
+        <!--img------------->
+        <img src="model.png" alt="image">
+        <!--about-text--------------------->
+        <div class="about-text">
+            <p>About Me</p>
+            <p>Sale & Machine Engineer</p>
+            <p>Hello my name is Dat. I am a Sale Engineer and also a Machine Enginner. </p>
+            <p>If you are in need of someone who works on machinery items or sells machinery please contact me</p>
+                <!--button--------------->
+                <button> Hire Me</button>
+                <button>Download CV</button>
+        </div>
+    </div>
+    <!--services-------------------------->
+    <div class="services">
+        <!--text------------------------>
+        <div class="services-text">
+        <p>Some Of My Experiences</p>
+        <p>Overall</p>
+        <p>-Trainee - Nguyen Phuc Mechanical Joint Stock Company </br> -Grocery Business</p>
+    </div>
+        <!--box------------------------------------------------->
+        <div    class="box-container">
+            <!--1---------------------------->
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">Engineer Intern</p>
+                <p class="details">
+                    -Responsible for recording and maintaining engineer records.</br>
+                    -Using computer Aided Design Systems and related software</br>
+                    -Built a data base for mechanical equipment, designing and processing industrial centrifugal,... </br>
+                </p>
+                <button>2 Months</button>
+            </div>
+            <!--2---------------------------->
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading">Grocery Business</p>
+                <p class="details">
+                    -Consulting product introduction</br>
+                    -Support writing product advertising</br> 
+                    -Answer customer's questions by phone and email
+                </p>
+                <button>4 Years</button>
+            </div>
+            <!--3---------------------------->
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">Others</p>
+                <p class="details">
+                    -English: Intermediate</br>
+                    -Japanese: Elementary</br>
+                    -Proficient in using many machines like: Creo-parametric, CNC, AutoCAD 2D,...
+                </p>
+                <button>2 Months</button>
+            </div>
+
+        </div>
+</div>
+<!--Contact me-------------------------------------->
+<div class="contact-me">
+    <p>If You Need Someone Capable And Experienced</p>
+    <button>Contact Me</button>
+</div>
+<!--footer------------------>
+<footer>
+    <p>Thành Long</p>
+    <p>I'm his assistant. If you can't get in touch with him please contact me!</p>
+        <!--social ----------------------->
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <!--copyright----------------------->
+        <p class="copyright">Copyright by Jackie Chan</p>
+</footer>
+<!--attached social bar-------->
+<div class="a-social-b">
+    <a href="https://www.facebook.com/raythongthai" target="_blank"><i class="fab fa-facebook-f"></i></a>
+</div>
+<!--JQuery--------->
+<script type="text/javascript" src="JQuery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+        })
+    })
+</script>
+</body>
+</html>
